@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MacedonianRedsQuiz</string>
+    <string name="question">Question</string>
+    <string name="play_again">Play again</string>
+    <string name="time">15</string>
+    <string name="correct">Correct</string>
+    <string name="wrongans">Opps the answer is wrong</string>
+    <string name="timeup">Time Up</string>
+    <string name="play_game">Play Game</string>
+    <string name="quit">Quit</string>
+    <string name="next">Next</string>
+    <string name="cancel">✖</string>
+    <string name="title_activity_main_game">MainGameActivity</string>
+    <string name="how_much_do_you_know_about_liverpool_fc">How much do you know about Liverpool FC</string>
+    <string name="liverpool_fc">LIVERPOOL FC</string>
+    <string name="you_are_a_true_liverpool_fan">YOU ARE A TRUE LIVERPOOL FAN !!!</string>
+</resources>

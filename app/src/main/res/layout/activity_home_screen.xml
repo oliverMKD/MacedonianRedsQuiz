@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/crvena_pozadina"
+   >
+    <TextView
+        android:id="@+id/tQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/how_much_do_you_know_about_liverpool_fc"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+    <ImageView
+        android:id="@+id/logoLiv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_red"/>
+
+    <Button
+        android:id="@+id/playGame"
+        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:text="@string/play_game"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></View>
+
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="300dp"
+        android:textSize="20sp"
+        android:text="@string/quit"
+        android:layout_height="wrap_content" />
+</LinearLayout>
