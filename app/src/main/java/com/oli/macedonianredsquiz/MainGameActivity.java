@@ -293,7 +293,7 @@ public class MainGameActivity extends AppCompatActivity {
         correctText.setTypeface(sb);
         buttonNext.setTypeface(sb);
 //        slika.setImageDrawable(R.drawable.right);
-        slika.setImageResource(R.drawable.right);
+        slika.setImageResource(R.drawable.thums_up);
         //OnCLick listener to go next que
         buttonNext.setOnClickListener(new View.OnClickListener() {
             @Override
