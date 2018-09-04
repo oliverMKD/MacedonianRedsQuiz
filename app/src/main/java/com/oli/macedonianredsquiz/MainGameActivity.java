@@ -14,6 +14,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Collections;
 import java.util.List;
@@ -166,7 +167,10 @@ public class MainGameActivity extends AppCompatActivity {
         //User ans is wrong then just navigate him to the PlayAgain activity
         else {
 
-            gameLostPlayAgain();
+            buttonA.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),R.color.red));
+            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_LONG).show();
+          
+//            gameLostPlayAgain();
 
         }
     }
@@ -182,7 +186,9 @@ public class MainGameActivity extends AppCompatActivity {
                 gameWon();
             }
         } else {
-            gameLostPlayAgain();
+            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_LONG).show();
+            buttonB.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),R.color.red));
+//            gameLostPlayAgain();
         }
     }
 
@@ -197,8 +203,9 @@ public class MainGameActivity extends AppCompatActivity {
                 gameWon();
             }
         } else {
-
-            gameLostPlayAgain();
+            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_LONG).show();
+            buttonC.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),R.color.red));
+//            gameLostPlayAgain();
         }
     }
 
@@ -213,7 +220,9 @@ public class MainGameActivity extends AppCompatActivity {
                 gameWon();
             }
         } else {
-            gameLostPlayAgain();
+            buttonD.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),R.color.red));
+            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_LONG).show();
+//            gameLostPlayAgain();
         }
     }
 
