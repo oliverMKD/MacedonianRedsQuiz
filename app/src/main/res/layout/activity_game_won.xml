@@ -14,8 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tekst_pobednik"
-        android:textSize="20sp"
-        android:textColor="@color/crna"
+        android:layout_marginTop="10dp"
+        android:textSize="27sp"
+        android:textColor="@color/white"
         android:text="@string/you_are_a_true_liverpool_fan"
         android:textAlignment="center"
         android:layout_gravity="center"/>
@@ -30,4 +31,23 @@
         android:layout_margin="15dp"
         android:onClick="PlayAgain"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tekst_link"
+        android:text="@string/please_visit"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tekst_link_macreds"
+        android:text="@string/macedonian_reds"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
 </LinearLayout>

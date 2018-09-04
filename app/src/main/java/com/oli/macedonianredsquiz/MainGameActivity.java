@@ -168,8 +168,8 @@ public class MainGameActivity extends AppCompatActivity {
         else {
 
             buttonA.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),R.color.red));
-            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_LONG).show();
-          
+            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_SHORT).show();
+
 //            gameLostPlayAgain();
 
         }
@@ -186,7 +186,7 @@ public class MainGameActivity extends AppCompatActivity {
                 gameWon();
             }
         } else {
-            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_SHORT).show();
             buttonB.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),R.color.red));
 //            gameLostPlayAgain();
         }
@@ -203,7 +203,7 @@ public class MainGameActivity extends AppCompatActivity {
                 gameWon();
             }
         } else {
-            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_SHORT).show();
             buttonC.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),R.color.red));
 //            gameLostPlayAgain();
         }
@@ -221,7 +221,7 @@ public class MainGameActivity extends AppCompatActivity {
             }
         } else {
             buttonD.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),R.color.red));
-            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "WRONG ! TRY AGAIN...", Toast.LENGTH_SHORT).show();
 //            gameLostPlayAgain();
         }
     }
